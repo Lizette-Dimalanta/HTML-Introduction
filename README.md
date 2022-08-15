@@ -220,7 +220,7 @@ __More Information:__ [W3Schools: HTML Basics](https://www.w3schools.com/html/ht
         </tr>
     </table>
     ```
-__*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/html/html_tables.asp)
+__*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/html/html_tables.asp_)
 
 - ### __Image__
     `<img src"link" alt="description"/>`
@@ -236,7 +236,7 @@ __*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/htm
     `<a href="#[id]"/>[title]</a>`: id -> anchors to different section of the same page.
     `<a href="file.html" target="_blank">[title]</a>`: Opens link in new tab (`target="_blank"`)
 
-    __*More Information*__: [HTML Links - W3Schools](https://www.w3schools.com/html/html_links.asp)
+    __*More Information*__: [HTML Links - W3Schools](https://www.w3schools.com/html/html_links.asp_)
 
 - ### __Symbols__
     `<p>Text &#9829;</p>`
@@ -333,17 +333,52 @@ __*Source*__: [W3Schools - HTML Semantic Elements](https://www.w3schools.com/htm
 __*More Information*__: [HTML Semantic Elements - W3Schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
 
 # HTML Forms
+`<form></form>`
 - Forms are visual content which then needs to perform an action with the data entered by the user.
 - Made up of multiple parts:
-    1. __Form:__
-        - The container for all other form-related elements.
-        - Can be configured with an "action" property that tells the form to submit its data to a specific URL.
-    2. __Input:__
-        - The customisable, _depends-on-the-data-you-want_ element.
-        - Can be configured to accept data in a variety of ways (such as fancy hidden password entries or time/date entries).
-    3. __Label:__
-        - Can be configured to correspond to input tags.
-        - For some input tags (such as radio/checkbox buttons), it allows you to click on the label to select the input value.
+1. __Form:__
+    - The container for all other form-related elements.
+    - Can be configured with an "action" property that tells the form to submit its data to a specific URL.
+    
+    ``` html
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+    ```
+
+2. __Input:__
+    - The customisable, _depends-on-the-data-you-want_ element.
+    - Can be configured to accept data in a variety of ways (such as fancy hidden password entries or time/date entries).
+
+        `<input type="text">` : Displays a __single-line text input field__
+
+        ```html
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+        </form>
+        ```
+        
+        `<input type="radio">` : __Radio Button__ (Selecting __one__ of a limited number of choices).
+
+        `<input type="checkbox">` : __Checkbox__ (Selecting zero or more choices).
+
+        `<input type="submit">` : __Submit Button__
+
+        `<input type="button">` : __Clickable Button__
+        
+        __*More Information*__: [HTML Input Types - W3Schools](https://www.w3schools.com/html/html_form_input_types.asp)
+
+3. __Label:__
+
+    `<label for="html">HTML</label><br>`
+    - Can be configured to correspond to input tags.
+    - For some input tags (such as radio/checkbox buttons), it allows you to click on the label to select the input value.
         - Hugely useful for screenreader functionality.
 
-__More Information:__ [W3Schools: HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+        __*More Information:*__ [W3Schools: Html Forms](https://www.w3schools.com/html/html_forms.asp)
