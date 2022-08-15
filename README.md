@@ -220,7 +220,7 @@ __More Information:__ [W3Schools: HTML Basics](https://www.w3schools.com/html/ht
         </tr>
     </table>
     ```
-__*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/html/html_tables.asp_)
+__*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/html/html_tables.asp)
 
 - ### __Image__
     `<img src"link" alt="description"/>`
@@ -236,7 +236,7 @@ __*More Information*__: [HTML Tables on W3Schools](https://www.w3schools.com/htm
     `<a href="#[id]"/>[title]</a>`: id -> anchors to different section of the same page.
     `<a href="file.html" target="_blank">[title]</a>`: Opens link in new tab (`target="_blank"`)
 
-    __*More Information*__: [HTML Links - W3Schools](https://www.w3schools.com/html/html_links.asp_)
+    __*More Information*__: [HTML Links - W3Schools](https://www.w3schools.com/html/html_links.asp)
 
 - ### __Symbols__
     `<p>Text &#9829;</p>`
@@ -346,4 +346,4 @@ __*More Information*__: [HTML Semantic Elements - W3Schools](https://www.w3schoo
         - For some input tags (such as radio/checkbox buttons), it allows you to click on the label to select the input value.
         - Hugely useful for screenreader functionality.
 
-__More Information:__ [W3Schools: Html Forms](https://www.w3schools.com/html/html_forms.asp)
+__More Information:__ [W3Schools: HTML Forms](https://www.w3schools.com/html/html_forms.asp)
